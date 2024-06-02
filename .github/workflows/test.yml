@@ -46,7 +46,7 @@ jobs:
 
     steps:
       - name: Setup Redmine
-        uses: sanak/action-setup-redmine@main
+        uses: sanak/action-setup-redmine@add-mysql-encoding
         with:
           repository: redmine/redmine
           version: ${{ matrix.redmine_version }}
